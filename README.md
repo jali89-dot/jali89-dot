@@ -29,19 +29,17 @@ I do not include real secrets, tokens, credentials, or private environment value
 
 ## Example Work
 
-### Editron setup documentation improvement
+### Setup documentation practice
 
-Problem:  
-The project had setup documentation, but no committed `.env.example` file. Some environment variable guidance was spread across README, CONTRIBUTING, and code usage.
+I am practicing small README/setup documentation contributions, including:
 
-Action:  
-I audited the setup docs and environment variable usage, added a safe `.env.example` with dummy placeholders, updated README and CONTRIBUTING setup steps, and kept real `.env` files ignored.
+- auditing environment variable usage
+- checking `.env.example` safety
+- improving contributor setup instructions
+- keeping documentation PRs small and reviewable
 
-Result:  
-Opened a focused documentation/setup PR with no runtime code changes and no secrets included.
-
-PR:  
-https://github.com/piyushdotcomm/Editron/pull/75
+Recent PR:
+https://github.com/BhupinderSehjal/OpenLife/pull/121
 
 ## Services
 
