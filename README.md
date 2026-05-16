@@ -42,7 +42,6 @@ Merged a focused documentation-only PR with no runtime code changes and no secre
 
 Merged PR:  
 https://github.com/BhupinderSehjal/OpenLife/pull/121
-
 ## Services
 
 **Quick README Review**  
