@@ -29,16 +29,18 @@ I do not include real secrets, tokens, credentials, or private environment value
 
 ## Example Work
 
-### Setup documentation practice
+### OpenLife backend environment documentation
 
-I am practicing small README/setup documentation contributions, including:
+Problem:  
+The project needed clearer documentation for backend production environment variables.
 
-- auditing environment variable usage
-- checking `.env.example` safety
-- improving contributor setup instructions
-- keeping documentation PRs small and reviewable
+Action:  
+I documented the backend environment variables in the README, including `PORT`, `DATABASE_URL`, `DATABASE_NAME`, `JWT_SECRET`, `JWT_ACCESS_EXPIRATION_TTL`, and `NODE_ENV`, with safe production notes.
 
-Recent PR:
+Result:  
+Merged a focused documentation-only PR with no runtime code changes and no secrets included.
+
+Merged PR:  
 https://github.com/BhupinderSehjal/OpenLife/pull/121
 
 ## Services
