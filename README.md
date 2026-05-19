@@ -35,13 +35,27 @@ Problem:
 The project needed clearer documentation for backend production environment variables.
 
 Action:  
-I documented the backend environment variables in the README, including `PORT`, `DATABASE_URL`, `DATABASE_NAME`, `JWT_SECRET`, `JWT_ACCESS_EXPIRATION_TTL`, and `NODE_ENV`, with safe production notes.
+I documented backend environment variables in the README, including `PORT`, `DATABASE_URL`, `DATABASE_NAME`, `JWT_SECRET`, `JWT_ACCESS_EXPIRATION_TTL`, and `NODE_ENV`, with safe production notes.
 
 Result:  
 Merged a focused documentation-only PR with no runtime code changes and no secrets included.
 
 Merged PR:  
 https://github.com/BhupinderSehjal/OpenLife/pull/121
+
+### LuvLyricsApp contributor troubleshooting docs
+
+Problem:  
+The project needed contributor troubleshooting notes for setup, lint, typecheck, and test issues.
+
+Action:  
+I added a concise troubleshooting section to `CONTRIBUTING.md`, including Node version checks, dependency refresh steps, `.env.example` copy commands, CI check commands, and notes about Firebase/Google credentials.
+
+Result:  
+Merged a focused documentation-only PR. The maintainer approved it and specifically liked the PowerShell env copy note, credentials clarification, and focused placement.
+
+Merged PR:  
+https://github.com/LuvLyricsApp/LuvLyricsApp/pull/58
 ## Services
 
 **Quick README Review**  
